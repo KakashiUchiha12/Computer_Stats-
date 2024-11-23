@@ -1,37 +1,48 @@
-System Stats Dashboard with Weather and GIF Animation
-This is a Python application that displays real-time system stats, weather updates, and inspirational quotes, with a dynamic animated GIF background. The dashboard is created using the Tkinter library and integrates with the OpenWeatherMap API for live weather updates.
+# System Stats Dashboard with Weather and GIF Animation
 
-Features
-System Monitoring:
+This is a Python application that displays real-time system stats, weather updates, and inspirational quotes, with a dynamic animated GIF background. The dashboard is created using the **Tkinter** library and integrates with the **OpenWeatherMap API** for live weather updates.
 
-Real-time CPU usage and frequency.
-Real-time RAM usage.
-Network statistics (Upload and Download speeds).
-Battery percentage and charging status.
-Weather Updates:
+---
 
-Fetches live weather data using OpenWeatherMap API.
-Displays temperature, "feels like" temperature, and weather description with relevant emojis.
-Dynamic Background:
+## Features
 
-Displays a looping animated GIF as the background.
-Inspirational Quotes:
+- **System Monitoring**:
+  - Real-time CPU usage and frequency.
+  - Real-time RAM usage.
+  - Network statistics (Upload and Download speeds).
+  - Battery percentage and charging status.
 
-Rotates through a list of motivational quotes every 5 minutes.
-Customizable Transparency:
+- **Weather Updates**:
+  - Fetches live weather data using OpenWeatherMap API.
+  - Displays temperature, "feels like" temperature, and weather description with relevant emojis.
 
-Allows adjusting the window transparency using a slider.
-Prerequisites
-Python 3.8+
-Internet connection (for weather updates).
-Installation
-Clone the Repository:
+- **Dynamic Background**:
+  - Displays a looping animated GIF as the background.
 
-bash
-Copy code
-git clone https://github.com/KakashiUchiha12/system-stats-dashboard.git
-cd system-stats-dashboard
-Install Required Libraries: Use pip to install the necessary libraries:
+- **Inspirational Quotes**:
+  - Rotates through a list of motivational quotes every 5 minutes.
+
+- **Customizable Transparency**:
+  - Allows adjusting the window transparency using a slider.
+
+---
+
+## Prerequisites
+
+- Python 3.8+
+- Internet connection (for weather updates).
+
+---
+
+## Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/KakashiUchiha12/system-stats-dashboard.git
+   cd system-stats-dashboard
+
+
+   Install Required Libraries: Use pip to install the necessary libraries:
 
 bash
 Copy code
